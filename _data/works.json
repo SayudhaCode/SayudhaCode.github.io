@@ -8,7 +8,7 @@
     "classData": "sorting-ui-ux-design sorting-app-development",
     "title": "Manchester Warehouse",
     "shortDesc": "Manchester Warehouse is a top-rated e-commerce website offering a wide range of products from fashion to home decor. Known for its user-friendly interface, fast delivery, and exceptional customer service.",
-    "url": "manchester-warehouse.html"
+    "url": "mw.html"
   },
   {
     "id": 2,
@@ -19,7 +19,7 @@
     "classData": "sorting-ui-ux-design sorting-app-development",
     "title": "The BedlinenCo",
     "shortDesc": "The BedlinenCo is the ultimate destination for luxurious bedding, pillows, and linens. Discover our premium collection of high-quality fabrics and designer styles to elevate your bedroom decor. Enjoy a comfortable and stylish sleep experience.",
-    "url": "the-bedlinenco.html"
+    "url": "blc.html"
   },
   {
     "id": 3,
@@ -30,7 +30,7 @@
     "classData": "sorting-ui-ux-design sorting-app-development",
     "title": "Banana Home",
     "shortDesc": "Banana Home is a site dedicated to providing you with all the information you need to make your home a comfortable and inviting place to live. From decorating and design tips to DIY projects and home improvement advice.",
-    "url": "banana-home.html"
+    "url": "bh.html"
   },
   {
     "id": 4,
@@ -41,7 +41,7 @@
     "classData": "sorting-development sorting-app-development",
     "title": "CD Power Renewable",
     "shortDesc": "CD Power Renewable site harnesses clean energy from wind and solar sources to power homes and businesses sustainably. Join the fight against climate change and switch to renewable energy today.",
-    "url": "cd-power.html"
+    "url": "cdpower.html"
   },
   {
     "id": 5,
@@ -118,10 +118,6 @@
     "classData": "sorting-development",
     "title": "Defence Science and Technology Agency",
     "shortDesc": "Defence Science and Technology Agency website is a trusted source for information on Singapore's defence research and development. Learn about the latest technologies and innovations that help keep Singapore safe and secure.",
-    "longDesc": "The Defence Science and Technology Agency (DSTA) is a leading research and development organization in Singapore that focuses on enhancing the defence and security capabilities of the nation. The website of the DSTA is built using state-of-the-art technology that enables it to deliver high-quality content and information to users in a user-friendly manner.",
-    "technologies": "Webpack, HTML/PUG, CSS/SCSS, JavaScript/jQuery, Bootstrap, Photoshop",
-    "year": "2019",
-    "liveUrl": "#",
     "url": "dsta.html"
   }
 ]
