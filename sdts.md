@@ -1,22 +1,21 @@
 ---
 layout: work-single
 title: Singapore Defence Technology Summit
-categories: Shopify, Web App Development
-year: 2021
-technology: Webpack, Liquid, SCSS, JavaScript/jQuery, Bootstrap, Shopify
-liveUrl: https://www.manchesterwarehouse.com.au/
-longDescLeft: Manchester Warehouse is a leading provider of storage and distribution services, serving customers in Australia and around the world. The company's website, manchesterwarehouse.com.au, is built using cutting-edge technology that enables customers to access information about the company's services, place orders, and track shipments easily and efficiently.
-longDescRight: "Some key technologies used in the development of manchesterwarehouse.com.au include: Content Management System (CMS), E-commerce Platform, Responsive Web Design (RWD), Search Engine Optimization (SEO),
-Web Analytics, Security Measures. These technologies, along with others, help to ensure that manchesterwarehouse.com.au provides customers with an effective, efficient and secure online experience."
-descLeft: "In conclusion, the technology used in the development of the Manchester Warehouse website, manchesterwarehouse.com.au, plays a critical role in ensuring that customers have access to a seamless and efficient online experience. The website is designed to be mobile-friendly, secure, and easy to use, with features such as a robust e-commerce platform, search engine optimization, and web analytics that help to enhance the customer experience."
-descRight: "The company's commitment to using the latest technologies reflects its dedication to providing its customers with the best possible service and support. With its focus on innovation and customer satisfaction, Manchester Warehouse is poised for continued success in the future."
-imgFull: ./../assets/images/8-MW.png
-imgFullOne: ./../assets/images/mw-607-820.png
-imgSrcOne: ./../assets/images/mw-607-820.png
-imgFullTwo: ./../assets/images/mw-1065-660.png
-imgSrcTwo: ./../assets/images/mw-1065-660.png
-imgFullThree: ./../assets/images/mw-1125-750.png
-imgSrcThree: ./../assets/images/mw-1125-750.png
+categories: Web Development
+year: 2019
+technology: Webpack, HTML/PUG, CSS/SCSS, JavaScript/jQuery, Bootstrap
+liveUrl: https://www.techsummit.sg/
+longDescLeft: "The Tech Summit website, www.techsummit.sg, targets a wide range of individuals and organizations in the technology industry. This includes technology leaders, entrepreneurs, investors, and enthusiasts who are interested in staying informed about the latest developments in the tech industry, as well as the opportunities and challenges that it presents."
+longDescRight: "The following are some of the key frontend and backend technologies used in the development of the Tech Summit website: -Frontend Technologies: User Interface (UI) Design, Responsive Web Design (RWD), Interactive Elements; -Backend Technologies: Web Analytics, Security Measures, These technologies help to ensure that the Tech Summit website provides visitors with an effective, efficient, and secure online experience, while keeping them informed about the latest developments in the tech industry. The Tech Summit's commitment to using advanced technology reflects its dedication to promoting and fostering innovation in the technology industry."
+descLeft: "In conclusion, the Tech Summit website, www.techsummit.sg, targets a wide range of individuals and organizations in the technology industry. The website offers a wealth of information about the latest developments in the tech industry, as well as opportunities and challenges it presents."
+descRight: "Advanced frontend and backend technologies, such as a user-friendly UI design, responsive web design, interactive elements, a content management system, web analytics, database management, and robust security measures, are used to ensure an efficient and effective online experience for visitors. The use of technology demonstrates the Tech Summit's commitment to promoting and fostering innovation in the technology industry."
+imgFull: ./../assets/images/2-TechSummit.png
+imgFullOne: ./../assets/images/sdts-607-820.png
+imgSrcOne: ./../assets/images/sdts-607-820.png
+imgFullTwo: ./../assets/images/sdts-1065-660.png
+imgSrcTwo: ./../assets/images/sdts-1065-660.png
+imgFullThree: ./../assets/images/sdts-1125-750.png
+imgSrcThree: ./../assets/images/sdts-1125-750.png
 nextUrl: dsta.html
 nextTitle: Defence Science and Technology Agency
 ---

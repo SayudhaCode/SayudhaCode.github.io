@@ -1,22 +1,21 @@
 ---
 layout: work-single
 title: Ministry of Communication and Information
-categories: Shopify, Web App Development
-year: 2021
-technology: Webpack, Liquid, SCSS, JavaScript/jQuery, Bootstrap, Shopify
-liveUrl: https://www.manchesterwarehouse.com.au/
-longDescLeft: Manchester Warehouse is a leading provider of storage and distribution services, serving customers in Australia and around the world. The company's website, manchesterwarehouse.com.au, is built using cutting-edge technology that enables customers to access information about the company's services, place orders, and track shipments easily and efficiently.
-longDescRight: "Some key technologies used in the development of manchesterwarehouse.com.au include: Content Management System (CMS), E-commerce Platform, Responsive Web Design (RWD), Search Engine Optimization (SEO),
-Web Analytics, Security Measures. These technologies, along with others, help to ensure that manchesterwarehouse.com.au provides customers with an effective, efficient and secure online experience."
-descLeft: "In conclusion, the technology used in the development of the Manchester Warehouse website, manchesterwarehouse.com.au, plays a critical role in ensuring that customers have access to a seamless and efficient online experience. The website is designed to be mobile-friendly, secure, and easy to use, with features such as a robust e-commerce platform, search engine optimization, and web analytics that help to enhance the customer experience."
-descRight: "The company's commitment to using the latest technologies reflects its dedication to providing its customers with the best possible service and support. With its focus on innovation and customer satisfaction, Manchester Warehouse is poised for continued success in the future."
-imgFull: ./../assets/images/8-MW.png
-imgFullOne: ./../assets/images/mw-607-820.png
-imgSrcOne: ./../assets/images/mw-607-820.png
-imgFullTwo: ./../assets/images/mw-1065-660.png
-imgSrcTwo: ./../assets/images/mw-1065-660.png
-imgFullThree: ./../assets/images/mw-1125-750.png
-imgSrcThree: ./../assets/images/mw-1125-750.png
+categories: Web Development
+year: 2018
+technology: Webpack, HTML/PUG, CSS/SCSS, JavaScript/jQuery, Bootstrap
+liveUrl: https://www.mci.gov.sg/
+longDescLeft: "The website, www.mci.gov.sg, is targeted towards the Ministry of Communications and Information (MCI) stakeholders in Singapore, including the public, media, and businesses. This website is designed to provide information and updates about the Ministry's policies, initiatives, and services."
+longDescRight: "The following are some of the key frontend and backend technologies used in the development of www.mci.gov.sg: -Frontend Technologies: User Interface (UI) Design, Responsive Web Design (RWD), Interactive Elements; -Backend Technologies: Content Management System (CMS), Web Analytics, Security Measures, Database Management, These technologies, along with others, help to ensure that www.mci.gov.sg provides stakeholders with an effective, efficient, and secure online experience, helping them to stay informed about the policies, initiatives, and services of the Ministry of Communications and Information."
+descLeft: "In conclusion, the website www.mci.gov.sg is developed with the target audience in mind, which includes the public, media, and businesses. The technology used on the frontend and backend focuses on user-friendliness, accessibility, and security, while providing relevant and up-to-date information about the Ministry's policies and initiatives."
+descRight: "The use of a Content Management System, web analytics, and database management helps to ensure an efficient and effective online experience for stakeholders, while the security measures employed ensure the protection of sensitive information. The MCI team's commitment to using advanced technology reflects its dedication to providing stakeholders with the best possible information and support."
+imgFull: ./../assets/images/5-MCI.png
+imgFullOne: ./../assets/images/mci-607-820.png
+imgSrcOne: ./../assets/images/mci-607-820.png
+imgFullTwo: ./../assets/images/mci-1065-660.png
+imgSrcTwo: ./../assets/images/mci-1065-660.png
+imgFullThree: ./../assets/images/mci-1125-750.png
+imgSrcThree: ./../assets/images/mci-1125-750.png
 nextUrl: nhb.html
 nextTitle: National Heritage Board
 ---

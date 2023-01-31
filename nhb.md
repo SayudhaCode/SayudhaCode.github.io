@@ -1,22 +1,21 @@
 ---
 layout: work-single
 title: National Heritage Board
-categories: Shopify, Web App Development
-year: 2021
-technology: Webpack, Liquid, SCSS, JavaScript/jQuery, Bootstrap, Shopify
-liveUrl: https://www.manchesterwarehouse.com.au/
-longDescLeft: Manchester Warehouse is a leading provider of storage and distribution services, serving customers in Australia and around the world. The company's website, manchesterwarehouse.com.au, is built using cutting-edge technology that enables customers to access information about the company's services, place orders, and track shipments easily and efficiently.
-longDescRight: "Some key technologies used in the development of manchesterwarehouse.com.au include: Content Management System (CMS), E-commerce Platform, Responsive Web Design (RWD), Search Engine Optimization (SEO),
-Web Analytics, Security Measures. These technologies, along with others, help to ensure that manchesterwarehouse.com.au provides customers with an effective, efficient and secure online experience."
-descLeft: "In conclusion, the technology used in the development of the Manchester Warehouse website, manchesterwarehouse.com.au, plays a critical role in ensuring that customers have access to a seamless and efficient online experience. The website is designed to be mobile-friendly, secure, and easy to use, with features such as a robust e-commerce platform, search engine optimization, and web analytics that help to enhance the customer experience."
-descRight: "The company's commitment to using the latest technologies reflects its dedication to providing its customers with the best possible service and support. With its focus on innovation and customer satisfaction, Manchester Warehouse is poised for continued success in the future."
-imgFull: ./../assets/images/8-MW.png
-imgFullOne: ./../assets/images/mw-607-820.png
-imgSrcOne: ./../assets/images/mw-607-820.png
-imgFullTwo: ./../assets/images/mw-1065-660.png
-imgSrcTwo: ./../assets/images/mw-1065-660.png
-imgFullThree: ./../assets/images/mw-1125-750.png
-imgSrcThree: ./../assets/images/mw-1125-750.png
+categories: Web Development
+year: 2018
+technology: Webpack, HTML/PUG, CSS/SCSS, JavaScript/jQuery, Bootstrap
+liveUrl: https://www.nhb.gov.sg/
+longDescLeft: "The National Heritage Board (NHB) website, www.nhb.gov.sg, is targeted towards a diverse audience, including researchers, history enthusiasts, tourists, and the general public. The website provides information about the rich cultural heritage and history of Singapore, as well as updates on the latest events and initiatives of the National Heritage Board."
+longDescRight: "The following are some of the key frontend and backend technologies used in the development of the NHB website: -Frontend Technologies: User Interface (UI) Design, Responsive Web Design (RWD), Interactive Elements; -Backend Technologies: Content Management System (CMS), Web Analytics, Database Management, Security Measures, These technologies help to ensure that www.nhb.gov.sg provides stakeholders with an effective, efficient, and secure online experience, while providing relevant and up-to-date information about the cultural heritage and history of Singapore. The National Heritage Board's commitment to using advanced technology reflects its dedication to promoting and preserving Singapore's cultural heritage."
+descLeft: "In conclusion, the National Heritage Board (NHB) website, www.nhb.gov.sg, is designed to cater to a diverse target audience, including researchers, history enthusiasts, tourists, and the general public. The frontend and backend technologies used on the website prioritize user experience, accessibility, and security."
+descRight: "The use of a CMS, web analytics, and database management helps to ensure an efficient and effective online experience for stakeholders, while the security measures employed ensure the protection of sensitive information. The NHB team's commitment to using advanced technology reflects its dedication to promoting and preserving Singapore's cultural heritage, while providing stakeholders with the best possible information and support."
+imgFull: ./../assets/images/4-NHB.png
+imgFullOne: ./../assets/images/nhb-607-820.png
+imgSrcOne: ./../assets/images/nhb-607-820.png
+imgFullTwo: ./../assets/images/nhb-1065-660.png
+imgSrcTwo: ./../assets/images/nhb-1065-660.png
+imgFullThree: ./../assets/images/nhb-1125-750.png
+imgSrcThree: ./../assets/images/nhb-1125-750.png
 nextUrl: psd.html
 nextTitle: Public Service Division
 ---
