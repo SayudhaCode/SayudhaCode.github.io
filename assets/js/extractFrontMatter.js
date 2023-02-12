@@ -31,17 +31,23 @@ function updateJson() {
       hashes[file] = hash;
 
       // Extract the title and date from the front matter
+      const id = frontMatter.postId;
       const title = frontMatter.title;
       const date = frontMatter.date;
+      const hero = frontMatter.hero;
+      const excerpt = frontMatter.excerpt;
 
       // Get the URL for the post
-      const url = `/posts/${file.slice(0, 10)}/${file.slice(11, -3)}`;
+      const url = `/posts/${file.slice(0, 10)}-${file.slice(11, -3)}`;
 
       // Store the information in an object
       const postInfo = {
+        id,
         title,
         date,
-        url
+        url,
+        hero,
+        excerpt
       };
 
       // Add the object to the array

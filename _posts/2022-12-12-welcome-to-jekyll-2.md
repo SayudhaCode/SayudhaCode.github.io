@@ -1,10 +1,15 @@
 ---
+postId: 2
 layout: blog-single
-title:  "Welcome to Jekyll!"
+title:  "Welcome to Jekyll 2!"
 date:   2022-12-12 06:43:49 +0700
 categories: jekyll update
 permalink: posts/:year-:month-:day-:title
+hero: ../../assets/images/single7.jpg
+excerpt: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes.
+author: Sayudha
 published: true
+comments: true
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
