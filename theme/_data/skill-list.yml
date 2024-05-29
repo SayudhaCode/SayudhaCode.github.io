@@ -1,0 +1,24 @@
+- group: 1
+  name: Shopify
+  desc: Experienced in leveraging Shopify's platform to create compelling and user-friendly e-commerce websites. Skilled in customizing themes, managing product catalogs, and optimizing store performance. Proficient in utilizing Shopify's APIs and app integrations to extend functionality and provide tailored solutions for clients' business needs.
+  percent: 95
+- group: 1
+  name: Liquid
+  desc: Skilled in utilizing Liquid to customize and optimize web platforms, ensuring dynamic content delivery and enhanced user experiences. Proficient in crafting personalized solutions through effective utilization of Liquid's capabilities, resulting in efficient workflows and engaging digital environments.
+  percent: 95
+- group: 2
+  name: JavaScript
+  desc: Proficient in JavaScript, with a deep understanding of its core concepts and modern frameworks. Skilled in developing robust, dynamic web applications, implementing complex logic, and enhancing user interactions. Experienced in utilizing JavaScript libraries and tools to build scalable solutions and optimize performance across various platforms.
+  percent: 95
+- group: 2
+  name: Jekyll
+  desc: Proficient in Jekyll, harnessing its capabilities to build efficient and scalable websites. Skilled in creating dynamic web content, optimizing site performance, and maintaining clean code structure. Experienced in leveraging Jekyll's features to streamline development workflows and enhance user experiences.
+  percent: 85
+- group: 3
+  name: Figma
+  desc: Proficient in Figma, leveraging its powerful design tools to create visually appealing and user-friendly interfaces. Experienced in collaborating with teams to streamline design processes and ensure seamless communication throughout project lifecycles.
+  percent: 70
+- group: 3
+  name: React
+  desc: Experienced in developing responsive and interactive web applications using React. Skilled in building reusable components, managing state, and optimizing performance. Proficient in integrating React with other technologies to create seamless user experiences and dynamic interfaces.
+  percent: 65

@@ -1,0 +1,66 @@
+<section class="lui-section lui-gradient-top" id="works-section">
+	<!-- Heading -->
+	<div class="lui-heading">
+		<div class="container">
+			<div class="m-titles align-center">
+				<h2 class="m-title splitting-text-anim-1 scroll-animate" data-splitting="words" data-animate="active">
+					<span> Portfolio </span>
+				</h2>
+				<div class="m-subtitle splitting-text-anim-1 scroll-animate" data-splitting="words" data-animate="active">
+					<span> my <b>Cases</b> </span>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Works -->
+	<div class="v-line v-line-right">
+		<div class="container">
+			<div class="works-box">
+				<div class="filter-links scrolla-element-anim-1 scroll-animate" data-animate="active">
+					<a href="#" class="lui-subtitle active" data-href=".works-col"> All </a>
+					<a href="#" class="lui-subtitle" data-href=".sorting-shopify"> Shopify </a>
+					<a href="#" class="lui-subtitle" data-href=".sorting-javascript"> JavaScript </a>
+					<a href="#" class="lui-subtitle" data-href=".sorting-vue"> Vue JS </a>
+					<a href="#" class="lui-subtitle" data-href=".sorting-wix"> WIX </a>
+				</div>
+				<div class="works-items works-masonry-items row">
+					{%- for item in site.data.portfolio-list -%}
+					<div class="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-branding sorting-{{ item.section }}">
+						<div class="works-item scrolla-element-anim-1 scroll-animate" data-animate="active">
+							<div class="image">
+								<div class="img">
+									<a href="{{ item.url }}">
+										<img decoding="async" src="{{ item.image }}" alt="{{ item.name }}" />
+										<span class="overlay"></span>
+									</a>
+								</div>
+							</div>
+							<div class="desc">
+								<span class="category"> {{ item.tags }} </span>
+								<h5 class="name">
+									<a href="{{ item.url }}">{{ item.name }}</a>
+								</h5>
+								<div class="text">
+									<p>{{ item.desc }}</p>
+								</div>
+								<a href="{{ item.url }}" class="lnk">See project</a>
+							</div>
+							<div class="bg-img" style="background-image: url(assets/images/pat-2.png)"></div>
+						</div>
+					</div>
+					{%- endfor -%}
+				</div>
+				<div class="load-more-link">
+					<a href="works.html" class="btn scrolla-element-anim-1 scroll-animate" data-animate="active">
+						<span>View More</span>
+					</a>
+				</div>
+			</div>
+
+			<div class="lui-bgtitle">
+				<span> Portfolio </span>
+			</div>
+		</div>
+	</div>
+</section>

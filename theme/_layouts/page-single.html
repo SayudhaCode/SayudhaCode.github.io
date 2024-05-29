@@ -1,0 +1,172 @@
+---
+layout: default
+---
+
+<div class="wrapper">
+	<!-- Section Started Heading -->
+	<section class="section section-inner started-heading">
+		<!-- Heading -->
+		<div class="container">
+			<div class="m-titles align-left">
+				<h1 class="m-title splitting-text-anim-1 scroll-animate" data-splitting="words" data-animate="active">
+					<span>{{ page.title }}</span>
+				</h1>
+				<div class="m-subtitle splitting-text-anim-1 scroll-animate" data-splitting="words" data-animate="active">
+					<span>{{ page.categories }}</span>
+				</div>
+			</div>
+		</div>
+
+		<!-- Details -->
+		<div class="v-line v-line-right v-line-top">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 flex-lg-nowrap">
+						<div class="m-details">
+							<div class="details-label">
+								<span>Year:</span>
+								<strong><span>{{ page.year }}</span></strong>
+							</div>
+							<div class="details-label" style="max-width: 380px">
+								<span>Technology:</span>
+								<strong><span>{{ page.technology }}</span></strong>
+							</div>
+							<div class="details-label">
+								<span>Categories:</span>
+								<strong><span>{{ page.categories }}</span></strong>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 align-right">
+						<a
+							target="_blank"
+							href="{{ page.liveUrl }}"
+							class="btn scrolla-element-anim-1 scroll-animate"
+							data-animate="active"
+						>
+							<span>Live Preview</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Section - Image -->
+	<div class="section section-inner">
+		<!-- Image -->
+		<div class="m-image-large">
+			<div class="image">
+				<div class="img js-parallax" style="background-image: url({{ page.imgFull }});"></div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Section - Description -->
+	<section class="section section-inner">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="post-content">
+						<h4>Description</h4>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+					<div class="post-content">
+						<p>{{ page.longDescLeft }}</p>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+					<div class="post-content">
+						<p>{{ page.longDescRight }}</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Section - Gallery -->
+	<div class="section section-inner">
+		<div class="container">
+			<!-- Section Gallery -->
+			<div class="m-gallery">
+				<div class="row">
+					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+						<div class="works-item">
+							<div class="image scrolla-element-anim-1 scroll-animate" data-animate="active">
+								<div class="img">
+									<a href="{{ page.imgFullOne }}" class="has-popup-image"
+										><img decoding="async" src="{{ page.imgSrcOne }}" alt="Item 1" loading="lazy"
+									/></a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+						<div class="works-item">
+							<div class="image scrolla-element-anim-1 scroll-animate" data-animate="active">
+								<div class="img">
+									<a href="{{ page.imgFullTwo }}" class="has-popup-image"
+										><img decoding="async" src="{{ page.imgSrcTwo }}" alt="Item 2" loading="lazy"
+									/></a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+						<div class="works-item">
+							<div class="image scrolla-element-anim-1 scroll-animate" data-animate="active">
+								<div class="img">
+									<a href="{{ page.imgFullThree }}" class="has-popup-image"
+										><img decoding="async" src="{{ page.imgSrcThree }}" alt="Item 3" loading="lazy"
+									/></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Section - Description -->
+	<section class="section section-inner">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="post-content">
+						<h4>Conclusion</h4>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+					<div class="post-content">
+						<p>{{ page.descLeft }}</p>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+					<div class="post-content">
+						<p>{{ page.descRight }}</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Section - Navigation -->
+	<div class="section section-inner m-page-navigation">
+		<div class="container">
+			<div class="h-titles h-navs">
+				<a href="{{ page.nextUrl }}">
+					<span class="nav-arrow scrolla-element-anim-1 scroll-animate" data-animate="active">
+						<span>Next Project</span>
+					</span>
+					<span class="h-title splitting-text-anim-2 scroll-animate" data-splitting="chars" data-animate="active">
+						<span>{{ page.nextTitle }}</span>
+					</span>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
