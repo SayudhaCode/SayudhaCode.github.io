@@ -22,6 +22,7 @@
 			init Cursor
 		**/
 			initCursor();
+			charSplit();
 
 			/**
 			init Scrolla
@@ -524,7 +525,7 @@
 						.catch((error) => {
 							status.innerHTML = "Oops! There was a problem submitting your form";
 						});
-						form.addEventListener("submit", submitHandler)
+					form.addEventListener("submit", submitHandler);
 				},
 			});
 		}
@@ -536,5 +537,37 @@
 
 		/* Set full height in started blocks */
 		$(".error-page, .menu-full-overlay, .preloader .centrize").css({ height: height });
+	}
+
+	function charSplit() {
+		const maxChar = 330;
+
+		$(".text-testi").each(function () {
+			const text = $(this).html();
+			const textSplit = text.substring(0, maxChar);
+
+			if (text.length > maxChar) {
+				const hiddenText = text.substring(maxChar);
+				$(this).html(
+					textSplit +
+						'<div class="read-more mt-3"><a class="lnk">Read more</a></div><span class="more-text" style="display: none;">' +
+						hiddenText +
+						'</span><div class="read-less mt-3" style="display: none;"><a class="lnk">Read less</a></div>'
+				);
+			}
+
+			$(document).on("click", ".read-more", function (e) {
+				e.preventDefault();
+				$(this).hide();
+				$(this).siblings(".more-text, .read-less").show();
+			});
+
+			$(document).on("click", ".read-less", function (e) {
+				e.preventDefault();
+				$(this).hide();
+				$(this).siblings(".more-text").hide();
+				$(this).siblings(".read-more").show();
+			});
+		});
 	}
 })(jQuery);

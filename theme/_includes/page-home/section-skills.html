@@ -1,0 +1,53 @@
+<section class="lui-section lui-gradient-center" id="skills-section">
+	<!-- Heading -->
+	<div class="lui-heading">
+		<div class="container">
+			<div class="m-titles align-center">
+				<h2 class="m-title splitting-text-anim-1 scroll-animate" data-splitting="words" data-animate="active">
+					<span> Professional Skills </span>
+				</h2>
+				<div class="m-subtitle splitting-text-anim-1 scroll-animate" data-splitting="words" data-animate="active">
+					<span> my <b>Talent</b> </span>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Skills -->
+	<div class="v-line v-line-left">
+		<div class="container">
+			<div class="row">
+				{%- for group in (1..3) -%}
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+					{%- for item in site.data.skill-list -%} {%- if item.group == group -%}
+					<div class="skills-items">
+						<div class="skills-item scrolla-element-anim-1 scroll-animate" data-animate="active">
+							<h6 class="name">
+								<span>{{ item.name }}</span>
+							</h6>
+							<div class="text">
+								<div>
+									<p>{{ item.desc }}</p>
+								</div>
+							</div>
+							<div class="dots">
+								<div class="dot" style="width: {{ item.percent }}%">
+									<span></span>
+								</div>
+							</div>
+							<div class="value">
+								<span class="num">{{ item.percent }}<span>%</span> </span>
+							</div>
+						</div>
+					</div>
+					{%- endif -%} {%- endfor -%}
+				</div>
+				{%- endfor -%}
+			</div>
+
+			<div class="lui-bgtitle">
+				<span> Skills </span>
+			</div>
+		</div>
+	</div>
+</section>
