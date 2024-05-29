@@ -30,7 +30,7 @@
 						<div class="works-item scrolla-element-anim-1 scroll-animate" data-animate="active">
 							<div class="image">
 								<div class="img">
-									<a href="work-single.html">
+									<a href="{{ item.url }}">
 										<img decoding="async" src="{{ item.image }}" alt="{{ item.name }}" />
 										<span class="overlay"></span>
 									</a>
@@ -39,12 +39,12 @@
 							<div class="desc">
 								<span class="category"> {{ item.tags }} </span>
 								<h5 class="name">
-									<a href="work-single.html">{{ item.name }}</a>
+									<a href="{{ item.url }}">{{ item.name }}</a>
 								</h5>
 								<div class="text">
 									<p>{{ item.desc }}</p>
 								</div>
-								<a href="work-single.html" class="lnk">See project</a>
+								<a href="{{ item.url }}" class="lnk">See project</a>
 							</div>
 							<div class="bg-img" style="background-image: url(assets/images/pat-2.png)"></div>
 						</div>
