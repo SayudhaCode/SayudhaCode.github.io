@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blog-single
 title:  "Welcome to Jekyll!"
 date:   2024-05-19 18:16:12 +0700
 categories: jekyll update
