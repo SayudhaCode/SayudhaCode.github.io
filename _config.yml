@@ -35,6 +35,11 @@ plugins:
 
 paginate: 5
 paginate_path: "/posts/page:num/"
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
 category-list: [all, shopify, javascript, vuejs, wix]
 

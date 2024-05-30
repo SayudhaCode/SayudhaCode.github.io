@@ -9,35 +9,35 @@ On some cases you need to make Read More button and Read Less button using JavaS
 
 ```javascript
 function charSplit() {
-	const maxChar = 330;
+  const maxChar = 330;
 
-	$(".text").each(function () {
-		const text = $(this).html();
-		const textSplit = text.substring(0, maxChar);
+  $(".text").each(function () {
+    const text = $(this).html();
+    const textSplit = text.substring(0, maxChar);
 
-		if (text.length > maxChar) {
-			const hiddenText = text.substring(maxChar);
-			$(this).html(
-				textSplit +
-					'<a href="#" class="read-more">...(read more)</a><span class="more-text" style="display: none;">' +
-					hiddenText +
-					'</span><a href="#" class="read-less" style="display: none;">...(read less)</a>'
-			);
-		}
-	});
+    if (text.length > maxChar) {
+      const hiddenText = text.substring(maxChar);
+      $(this).html(
+        textSplit +
+          '<a href="#" class="read-more">...(read more)</a><span class="more-text" style="display: none;">' +
+          hiddenText +
+          '</span><a href="#" class="read-less" style="display: none;">...(read less)</a>'
+      );
+    }
+  });
 
-	$(document).on("click", ".read-more", function (e) {
-		e.preventDefault();
-		$(this).hide();
-		$(this).siblings(".more-text, .read-less").show();
-	});
+  $(document).on("click", ".read-more", function (e) {
+    e.preventDefault();
+    $(this).hide();
+    $(this).siblings(".more-text, .read-less").show();
+  });
 
-	$(document).on("click", ".read-less", function (e) {
-		e.preventDefault();
-		$(this).hide();
-		$(this).siblings(".more-text").hide();
-		$(this).siblings(".read-more").show();
-	});
+  $(document).on("click", ".read-less", function (e) {
+    e.preventDefault();
+    $(this).hide();
+    $(this).siblings(".more-text").hide();
+    $(this).siblings(".read-more").show();
+  });
 }
 ```
 
