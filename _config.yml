@@ -67,16 +67,18 @@ defaults:
       path: ""
       type: "posts"
     values:
-      layout: "post"
+      layout: "blog-single"
+      author: "Sayudha Lukita Wibisana"
       author_profile: true
       comments: true
       share: true
       related: true
       related_posts_heading: "You may also like:"
+      permalink:  /:categories/:year/:month/:day/:title/
   - scope:
       path: ""
       type: "pages"
     values:
-      layout: "page"
+      layout: "page-single"
       comments: true
       share: true

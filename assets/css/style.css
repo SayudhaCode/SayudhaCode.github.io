@@ -481,6 +481,10 @@ ol ul {
 	margin-left: 15px;
 }
 
+li {
+	margin-bottom: 15px;
+}
+
 code {
 	padding: 0 4px;
 	font-size: 14px;
@@ -490,7 +494,6 @@ code {
 	vertical-align: middle;
 	overflow: auto;
 	max-width: 100%;
-	white-space: nowrap;
 }
 
 pre {
