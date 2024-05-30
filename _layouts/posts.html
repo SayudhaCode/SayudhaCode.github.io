@@ -25,84 +25,33 @@ layout: default
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-8">
 					<!-- Blog Items -->
 					<div class="articles-container">
-						<div class="archive-item scrolla-element-anim-1 scroll-animate" data-animate="active">
-							<div class="image">
-								<a href="blog-single.html">
-									<img src="assets/images/single7.jpg" alt="The Main Thing For The Designer" loading="lazy" />
-								</a>
-							</div>
-							<div class="desc">
-								<div class="category lui-subtitle">
-									<span>October 31, 2022</span>
+						{%- for post in site.posts | limit: 3 -%}
+							<div 
+								class="archive-item scrolla-element-anim-1 scroll-animate" 
+								data-animate="active"
+								data-category ="{{ post.categories | join: ' ' }}"
+							>
+								<div class="image">
+									<a href="{{ post.url }}">
+										<img src="{{ post.image }}" alt="{{ post.title }}" loading="lazy" />
+									</a>
 								</div>
-								<h5 class="lui-title">
-									<a href="blog-single.html">The Main Thing For The Designer</a>
-								</h5>
-								<div class="lui-text">
-									<p>
-										Vivamus interdum suscipit lacus. Nunc ultrices accumsan mattis. Aliquam vel sem vel velit efficitur
-										malesuada. Donec arcu lacus, ornare eget&hellip;
-									</p>
-									<div class="readmore">
-										<a href="blog-single.html" class="lnk">Read more</a>
+								<div class="desc">
+									<div class="category lui-subtitle">
+										<span>{{ post.date | date: "%B %d, %Y" }}</span>
+									</div>
+									<h5 class="lui-title">
+										<a href="{{ post.url }}">{{ post.title }}</a>
+									</h5>
+									<div class="lui-text">
+										{{ post.excerpt }}
+										<div class="readmore">
+											<a href="{{ post.url }}" class="lnk">Read more</a>
+										</div>
 									</div>
 								</div>
 							</div>
-						</div>
-
-						<div class="archive-item scrolla-element-anim-1 scroll-animate" data-animate="active">
-							<div class="image">
-								<a href="blog-single.html">
-									<img src="assets/images/blog-4-scaled-1.jpg" alt="Follow Your Own Design Process" loading="lazy" />
-								</a>
-							</div>
-							<div class="desc">
-								<div class="category lui-subtitle">
-									<span>October 31, 2022</span>
-								</div>
-								<h5 class="lui-title">
-									<a href="blog-single.html">Follow Your Own Design Process</a>
-								</h5>
-								<div class="lui-text">
-									<p>
-										Vivamus interdum suscipit lacus. Nunc ultrices accumsan mattis. Aliquam vel sem vel velit efficitur
-										malesuada. Donec arcu lacus, ornare eget&hellip;
-									</p>
-									<div class="readmore">
-										<a href="blog-single.html" class="lnk">Read more</a>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="archive-item scrolla-element-anim-1 scroll-animate" data-animate="active">
-							<div class="image">
-								<a href="blog-single.html">
-									<img
-										src="assets/images/blog-2.jpg"
-										alt="Usability Secrets to Create Better Interfaces"
-										loading="lazy"
-									/>
-								</a>
-							</div>
-							<div class="desc">
-								<div class="category lui-subtitle">
-									<span>November 28, 2021</span>
-								</div>
-								<h5 class="lui-title">
-									<a href="blog-single.html">Usability Secrets to Create Better Interfaces</a>
-								</h5>
-								<div class="lui-text">
-									<p>
-										Vivamus interdum suscipit lacus. Nunc ultrices accumsan mattis. Aliquam vel sem vel velit efficitur
-										malesuada. Donec arcu lacus, ornare eget&hellip;
-									</p>
-									<div class="readmore">
-										<a href="blog-single.html" class="lnk">Read more</a>
-									</div>
-								</div>
-							</div>
-						</div>
+						{%- endfor -%}
 					</div>
 
 					<div class="pager">
@@ -130,31 +79,13 @@ layout: default
 										<div class="wp-block-group__inner-container">
 											<h2>Recent Posts</h2>
 											<ul class="wp-block-latest-posts__list wp-block-latest-posts">
-												<li>
-													<a class="wp-block-latest-posts__post-title" href="blog-single.html"
-														>The Main Thing For The Designer</a
-													>
-												</li>
-												<li>
-													<a class="wp-block-latest-posts__post-title" href="blog-single.html"
-														>Follow Your Own Design Process</a
-													>
-												</li>
-												<li>
-													<a class="wp-block-latest-posts__post-title" href="blog-single.html"
-														>Usability Secrets to Create Better Interfaces</a
-													>
-												</li>
-												<li>
-													<a class="wp-block-latest-posts__post-title" href="blog-single.html"
-														>Three Ways To Level Up Your Photography</a
-													>
-												</li>
-												<li>
-													<a class="wp-block-latest-posts__post-title" href="blog-single.html"
-														>10 Useful Tips to Improve Your Skills</a
-													>
-												</li>
+												{%- for post in site.posts -%}
+													<li>
+														<a class="wp-block-latest-posts__post-title" href="{{ post.url }}">
+															{{ post.title }}
+														</a>
+													</li>
+												{%- endfor -%}
 											</ul>
 										</div>
 									</div>
@@ -199,10 +130,11 @@ layout: default
 										<div class="wp-block-group__inner-container">
 											<h2>Categories</h2>
 											<ul class="wp-block-categories-list wp-block-categories">
-												<li class="cat-item cat-item-2"><a href="blog-single.html">Branding</a></li>
-												<li class="cat-item cat-item-3"><a href="blog-single.html">Photography</a></li>
-												<li class="cat-item cat-item-4"><a href="blog-single.html">UI Design</a></li>
-												<li class="cat-item cat-item-5"><a href="blog-single.html">UX Design</a></li>
+												{%- for category in site.categories -%}
+													<li class="cat-item cat-item-2" data-category="{{ category | first }}">
+														<a href="#">{{ category | first | upcase }}</a>
+													</li>
+												{%- endfor -%}
 											</ul>
 										</div>
 									</div>

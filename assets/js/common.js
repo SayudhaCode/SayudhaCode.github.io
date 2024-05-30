@@ -23,6 +23,7 @@
 		**/
 			initCursor();
 			charSplit();
+			categoryPost();
 
 			/**
 			init Scrolla
@@ -567,6 +568,22 @@
 				$(this).hide();
 				$(this).siblings(".more-text").hide();
 				$(this).siblings(".read-more").show();
+			});
+		});
+	}
+
+	function categoryPost() {
+		document.querySelectorAll(".archive-item").forEach(function (category) {
+			console.log(category);
+			category.addEventListener("click", function () {
+				var selectedCategory = this.dataset.category;
+				document.querySelectorAll(".post").forEach(function (post) {
+					if (post.dataset.category.includes(selectedCategory)) {
+						post.style.display = "block";
+					} else {
+						post.style.display = "none";
+					}
+				});
 			});
 		});
 	}
